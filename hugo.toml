@@ -2,9 +2,6 @@ baseURL = "https://nullbadgers.github.io/hugo_testing/"
 languageCode = "en-us"
 title = "My Hugo Blog"
 theme = "ananke"
-# Ensure URLs resolve correctly on GitHub Pages project subpaths
-relativeURLs = true
-canonifyURLs = true
 
 disableKinds = ["taxonomy", "term"]
 
