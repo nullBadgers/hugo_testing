@@ -7,6 +7,8 @@ lastmod: 2025-10-08T00:00:00Z
 authors: ["Your Name"]
 categories: []
 tags: []
+aliases:
+  - /posts/randomthoughts/
 draft: false
 resources: []
 cover:
