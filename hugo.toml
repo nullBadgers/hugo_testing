@@ -1,0 +1,14 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My Hugo Blog"
+theme = "ananke"
+
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  author = "Your Name"
+  description = "A simple blog built with Hugo and Ananke"
+  github = ""
+  twitter = ""
+  featured_image = "/images/hero.jpg"
+  footer = "© 2025 Your Name"
