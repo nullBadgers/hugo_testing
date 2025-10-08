@@ -12,3 +12,20 @@ disableKinds = ["taxonomy", "term"]
   twitter = ""
   featured_image = "/images/hero.jpg"
   footer = "© 2025 Your Name"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
