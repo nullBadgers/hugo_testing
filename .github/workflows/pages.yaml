@@ -27,8 +27,11 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build
-        run: hugo --minify
+      - name: Clean output directory
+        run: rm -rf public
+
+      - name: Build (production)
+        run: HUGO_ENV=production hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
