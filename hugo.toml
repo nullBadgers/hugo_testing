@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://nullbadgers.github.io/hugo_testing/"
 languageCode = "en-us"
 title = "My Hugo Blog"
 theme = "ananke"
