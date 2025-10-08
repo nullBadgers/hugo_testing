@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My Hugo Blog</title>
+    <link>https://nullbadgers.github.io/hugo_testing/posts/</link>
+    <description>Recent content in Posts on My Hugo Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nullbadgers.github.io/hugo_testing/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Random Thoughts</title>
+      <link>https://nullbadgers.github.io/hugo_testing/posts/random-thoughts/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://nullbadgers.github.io/hugo_testing/posts/random-thoughts/</guid>
+      <description>&lt;p&gt;Write your post here.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut lectus ut ligula ornare ornare id sit amet nisl. Mauris sit amet purus justo. Phasellus sit amet bibendum lectus. Pellentesque in elit vitae lacus vehicula viverra. Nam sed lobortis odio. Duis pulvinar lorem vitae nisi lacinia, vitae gravida justo maximus. Ut gravida est quis faucibus vulputate. Donec vitae magna elementum nulla dapibus molestie. Donec ullamcorper rhoncus felis, aliquet eleifend magna sodales vitae. Pellentesque risus nunc, congue in viverra vitae, finibus quis quam.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
