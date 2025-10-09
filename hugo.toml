@@ -3,11 +3,6 @@ languageCode = "en-us"
 title = "Hugo testing"
 theme = "PaperMod"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
 [params]
   author = "nullBadgers"
   description = "A simple blog built with Hugo and PaperMod"
