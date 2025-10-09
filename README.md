@@ -107,3 +107,4 @@ hugo server -D
 - Online looks different from local:
   - Ensure the CI build uses: `hugo --minify --baseURL "https://nullbadgers.github.io/hugo_testing/"` (already set in `.github/workflows/hugo-pages.yml`).
   - In the deploy run, confirm the artifact contains `index.html` and `ananke/css/main.min.css`.
+# Test commit for GitHub Actions
