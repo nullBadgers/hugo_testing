@@ -30,3 +30,8 @@ theme = "PaperMod"
     name = "About"
     url = "/about/"
     weight = 3
+  [[menu.main]]
+    identifier = "gallery"
+    name = "Gallery"
+    url = "/gallery/"
+    weight = 4
