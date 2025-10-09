@@ -1,13 +1,13 @@
 baseURL = "https://nullbadgers.github.io/hugo_testing/"
 languageCode = "en-us"
-title = "My Hugo Blog"
+title = "Hugo blog testing"
 theme = "ananke"
 
 [params]
-  author = "Your Name"
+  author = "nullBadgers"
   description = "A simple blog built with Hugo and Ananke"
   featured_image = "/images/hero.jpg"
-  footer = "© 2025 Your Name"
+  footer = "© 2025 nullBadgers"
 
 [menu]
   [[menu.main]]
@@ -24,4 +24,14 @@ theme = "ananke"
     identifier = "about"
     name = "About"
     url = "/about/"
+    weight = 3
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
     weight = 3
