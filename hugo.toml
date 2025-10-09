@@ -8,6 +8,7 @@ theme = "ananke"
   description = "A simple blog built with Hugo and Ananke"
   featured_image = "/images/hero.jpg"
   footer = "© 2025 nullBadgers"
+  mainSections = ["posts"]
 
 [menu]
   [[menu.main]]
@@ -30,8 +31,3 @@ theme = "ananke"
     name = "Contact"
     url = "/contact/"
     weight = 4
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 3
