@@ -1,7 +1,7 @@
 baseURL = "https://nullbadgers.github.io/hugo_testing/"
 languageCode = "en-us"
 title = "Hugo blog testing"
-theme = "anatole"
+theme = "PaperMod"
 
 [params]
   author = "nullBadgers"
