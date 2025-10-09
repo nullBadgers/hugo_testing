@@ -5,7 +5,7 @@ theme = "PaperMod"
 
 [params]
   author = "nullBadgers"
-  description = "A simple blog built with Hugo and Anatole"
+  description = "A simple blog built with Hugo and PaperMod"
   mainSections = ["posts"]
 
 [menu]
