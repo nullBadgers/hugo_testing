@@ -1,0 +1,20 @@
+# -- Language Configuration --
+# This file configures the English language settings for your site.
+
+languageCode = "en"
+languageName = "English"
+languageWeight = 1
+
+[author]
+  name = "nullBadgers"
+  email = ""
+  link = ""
+
+[params]
+  title = "Hugo testing by nullBadgers"
+  description = "A simple blog built with Hugo and Blowfish theme"
+  keywords = ["hugo", "blog", "blowfish", "nullbadgers"]
+  
+  [params.homepage]
+    title = "Hello explorer!"
+    content = "Welcome to my WIP blog"
