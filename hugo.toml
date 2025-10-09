@@ -1,6 +1,6 @@
 baseURL = "https://nullbadgers.github.io/hugo_testing/"
 languageCode = "en-us"
-title = "Hugo blog testing"
+title = "Hugo testing"
 theme = "PaperMod"
 
 [params]
@@ -8,6 +8,7 @@ theme = "PaperMod"
   description = "A simple blog built with Hugo and PaperMod"
   mainSections = ["posts"]
   hideCopyright = false
+  ShowReadingTime = true
 
 [params.footer]
   text = "© 2025 nullBadgers • All rights reserved"
