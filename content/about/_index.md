@@ -1,7 +1,7 @@
 +++
-date = '2025-10-08T14:45:25+01:00'
-draft = true
+date = '2025-10-09T09:16:14+01:00'
+draft = false
 title = 'About'
 +++
 
-This is a simple blog built with Hugo and Ananke.
+This is a fresh Hugo site using the Ananke theme.
