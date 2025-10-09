@@ -1,6 +1,6 @@
 baseURL = "https://nullbadgers.github.io/hugo_testing/"
 languageCode = "en-us"
-title = "Hugo testing"
+title = "Hugo testing by nullBadgers"
 theme = "PaperMod"
 
 [params]
@@ -10,6 +10,13 @@ theme = "PaperMod"
   hideCopyright = false
   ShowReadingTime = true
   ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowShareButtons = true
+
+
+[params.homeInfoParams]
+title = "Hello explorer!"
+content = "Welcome to my WIP blog"
 
 [params.footer]
   text = "© 2025 nullBadgers • All rights reserved"
@@ -26,12 +33,17 @@ theme = "PaperMod"
     url = "/posts/"
     weight = 2
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
     weight = 3
   [[menu.main]]
     identifier = "gallery"
     name = "Gallery"
     url = "/gallery/"
     weight = 4
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 5
