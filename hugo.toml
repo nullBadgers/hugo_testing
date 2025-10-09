@@ -1,18 +1,11 @@
 baseURL = "https://nullbadgers.github.io/hugo_testing/"
 languageCode = "en-us"
 title = "Hugo blog testing"
-theme = "PaperMod"
+theme = "anatole"
 
 [params]
   author = "nullBadgers"
-  description = "A simple blog built with Hugo and PaperMod"
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowToc = true
+  description = "A simple blog built with Hugo and Anatole"
   mainSections = ["posts"]
 
 [menu]
