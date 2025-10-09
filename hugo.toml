@@ -9,6 +9,9 @@ theme = "PaperMod"
   mainSections = ["posts"]
   hideCopyright = false
 
+[params.footer]
+  text = "© 2025 Your Name • All rights reserved"
+
 [menu]
   [[menu.main]]
     identifier = "home"
