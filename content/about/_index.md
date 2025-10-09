@@ -4,4 +4,9 @@ draft = false
 title = 'About'
 +++
 
-This is a fresh Hugo site using the Ananke theme.
+I'm still learning and testing Hugo and GitHub actions so all of this is WIP.
+
+Some contacts details:
+
+- GitHub: https://github.com/nullBadgers
+- Twitter/X: https://twitter.com/yourhandle

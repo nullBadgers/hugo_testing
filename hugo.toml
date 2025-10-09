@@ -26,8 +26,3 @@ theme = "ananke"
     name = "About"
     url = "/about/"
     weight = 3
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 4
