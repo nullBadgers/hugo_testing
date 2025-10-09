@@ -11,29 +11,31 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Home"
-  pageRef = "home"
-  weight = 10
-
-[[main]]
   name = "Posts"
   pageRef = "posts"
-  weight = 20
+  weight = 10
 
 [[main]]
   name = "Gallery"
   pageRef = "gallery"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "About"
   pageRef = "about"
-  weight = 40
+  weight = 30
 
 [[main]]
   name = "Tags"
   pageRef = "tags"
-  weight = 50
+  weight = 40
+
+# Social links (optional - you can add these if you want)
+# [[main]]
+#   identifier = "github"
+#   pre = "github"
+#   url = "https://github.com/nullBadgers"
+#   weight = 200
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
