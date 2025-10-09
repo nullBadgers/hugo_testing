@@ -98,3 +98,12 @@ hugo server -D
 6) Verify on GitHub Pages
 - `https://nullbadgers.github.io/hugo_testing/posts/my-post/`
 - If images/styles are missing, wait for the workflow to finish and hard refresh.
+
+## Troubleshooting GitHub Pages
+
+- Page shows README instead of the site:
+  - Repo Settings → Pages → set Source to "GitHub Actions" (not Branch).
+  - Re-run the workflow (or push an empty commit) and hard refresh the site.
+- Online looks different from local:
+  - Ensure the CI build uses: `hugo --minify --baseURL "https://nullbadgers.github.io/hugo_testing/"` (already set in `.github/workflows/hugo-pages.yml`).
+  - In the deploy run, confirm the artifact contains `index.html` and `ananke/css/main.min.css`.
