@@ -4,7 +4,7 @@ draft: false
 title: 'About'
 ---
 
-I'm still learning and testing Hugo and GitHub actions so all of this is WIP.
+IT Engineer by trade, gamer and geek the other times.
 
 Some contacts details:
 

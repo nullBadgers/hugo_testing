@@ -6,7 +6,7 @@ languageName = "English"
 languageWeight = 1
 disabled = false
 weight = 1
-title = "Blowfish"
+title = "nullBadgers"
 
 [author]
   name = "nullBadgers"
@@ -35,7 +35,7 @@ title = "Blowfish"
     email = "youremail@example.com"
     image = "https://avatars.githubusercontent.com/u/12233836?s=400&u=8733d76f1fe8603c3874e01ea68e300e7679f37a&v=4"
     imageQuality = 96
-    headline = "I'm only human"
+    headline = "IT, Gamer & Tech Geek "
     bio = "A little bit about you"
 #   links = [
 #     { email = "mailto:hello@your_domain.com" },
