@@ -8,4 +8,4 @@ IT Engineer by trade, gamer and geek the other times.
 
 Some contacts details:
 
-- GitHub: https://github.com/nullBadgers
+TBC
