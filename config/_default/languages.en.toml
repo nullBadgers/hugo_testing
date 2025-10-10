@@ -21,7 +21,7 @@ title = "nullBadgers"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
+  # logo = "img/profile-icon.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
@@ -33,7 +33,8 @@ title = "nullBadgers"
   [params.author]
     name = "nullBadgers"
     email = "youremail@example.com"
-    image = "https://avatars.githubusercontent.com/u/12233836?s=400&u=8733d76f1fe8603c3874e01ea68e300e7679f37a&v=4"
+    # image = "https://avatars.githubusercontent.com/u/12233836?s=400&u=8733d76f1fe8603c3874e01ea68e300e7679f37a&v=4"
+    image = "/img/author.png"
     imageQuality = 96
     headline = "IT, Gamer & Tech Geek "
     bio = "A little bit about you"

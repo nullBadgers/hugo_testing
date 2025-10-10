@@ -9,4 +9,3 @@ Welcome to My Blog! 🎉
 
 I'm still learning and testing Hugo and GitHub actions so all of this is WIP.
 
----
