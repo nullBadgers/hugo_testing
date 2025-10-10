@@ -31,7 +31,7 @@ jobs:
         run: rm -rf public
 
       - name: Build (production)
-        run: HUGO_ENV=production hugo --minify --baseURL "https://nullbadgers.github.io/hugo_testing/"
+        run: HUGO_ENV=production hugo --minify --baseURL "https://nullbadgers.github.io/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

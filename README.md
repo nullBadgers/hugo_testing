@@ -6,14 +6,14 @@ Creating a Hugo site.
 This repo uses GitHub Actions to build and deploy the site to GitHub Pages.
 
 Prereqs:
-- `baseURL` in `hugo.toml` must be `https://nullbadgers.github.io/hugo_testing/`.
+- `baseURL` in `hugo.toml` must be `https://nullbadgers.github.io/`.
 - Active workflow: `.github/workflows/hugo-pages.yml`.
 
 Build and publish:
 ```bash
 # from repo root
 rm -rf public
-HUGO_ENV=production hugo --minify --baseURL "https://nullbadgers.github.io/hugo_testing/"
+HUGO_ENV=production hugo --minify --baseURL "https://nullbadgers.github.io/"
 
 git add public
 git commit -m "Build site"
@@ -96,7 +96,7 @@ hugo server -D
 - Push — GitHub Actions builds and deploys to Pages automatically.
 
 6) Verify on GitHub Pages
-- `https://nullbadgers.github.io/hugo_testing/posts/my-post/`
+- `https://nullbadgers.github.io/posts/my-post/`
 - If images/styles are missing, wait for the workflow to finish and hard refresh.
 
 ## Troubleshooting GitHub Pages
@@ -105,6 +105,6 @@ hugo server -D
   - Repo Settings → Pages → set Source to "GitHub Actions" (not Branch).
   - Re-run the workflow (or push an empty commit) and hard refresh the site.
 - Online looks different from local:
-  - Ensure the CI build uses: `hugo --minify --baseURL "https://nullbadgers.github.io/hugo_testing/"` (already set in `.github/workflows/hugo-pages.yml`).
+  - Ensure the CI build uses: `hugo --minify --baseURL "https://nullbadgers.github.io/"` (already set in `.github/workflows/hugo-pages.yml`).
   - In the deploy run, confirm the artifact contains `index.html` and `ananke/css/main.min.css`.
 # Test commit for GitHub Actions
