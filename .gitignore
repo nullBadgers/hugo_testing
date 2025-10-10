@@ -8,7 +8,7 @@ node_modules/
 # macOS and VSCode
 .DS_Store
 /.vscode/
-
+/instructions/
 
 # node
 node_modules/

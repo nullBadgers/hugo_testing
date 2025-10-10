@@ -21,14 +21,29 @@
   weight = 20
 
 [[main]]
-  name = "About"
-  pageRef = "about"
+  name = "Books"
+  pageRef = "books"
   weight = 30
+
+[[main]]
+  name = "Music"
+  pageRef = "music"
+  weight = 35
+
+[[main]]
+  name = "Movies & Shows"
+  pageRef = "movies"
+  weight = 40
 
 [[main]]
   name = "Tags"
   pageRef = "tags"
-  weight = 40
+  weight = 50
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 100
 
 # Social links (optional - you can add these if you want)
 # [[main]]
@@ -42,8 +57,8 @@
 # the copyright notice. Configure as per the main menu above.
 
 [[footer]]
-  name = "Tags"
-  pageRef = "tags"
+  name = "Privacy"
+  pageRef = "privacy"
   weight = 10
 
 [[footer]]
