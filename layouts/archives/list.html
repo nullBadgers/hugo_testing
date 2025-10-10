@@ -1,0 +1,82 @@
+{{ define "main" }}
+<div class="container">
+  <article class="max-w-none">
+    <header>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}
+        <p class="text-xl text-neutral-500 dark:text-neutral-400 mt-0">{{ . }}</p>
+      {{ end }}
+    </header>
+
+    <div class="mt-8">
+      {{ if .Content }}
+        <div class="prose dark:prose-invert max-w-none">
+          {{ .Content }}
+        </div>
+      {{ end }}
+
+      <div class="mt-12">
+        <h2>All Posts</h2>
+        <div class="mt-6">
+          {{ $posts := where .Site.RegularPages "Type" "posts" }}
+          {{ if $posts }}
+            <div class="grid gap-6">
+              {{ range $posts }}
+                <div class="border border-neutral-200 dark:border-neutral-800 rounded-lg p-6 hover:shadow-lg transition-shadow">
+                  <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+                    <div class="flex-1">
+                      <h3 class="text-xl font-semibold mb-2">
+                        <a href="{{ .RelPermalink }}" class="text-neutral-900 dark:text-neutral-100 hover:text-primary-500 dark:hover:text-primary-400">
+                          {{ .Title }}
+                        </a>
+                      </h3>
+                      {{ if .Description }}
+                        <p class="text-neutral-600 dark:text-neutral-400 mb-3">{{ .Description }}</p>
+                      {{ end }}
+                      <div class="flex flex-wrap gap-2 text-sm text-neutral-500 dark:text-neutral-400">
+                        <span>{{ .Date.Format "January 2, 2006" }}</span>
+                        {{ if .ReadingTime }}
+                          <span>• {{ .ReadingTime }} min read</span>
+                        {{ end }}
+                        {{ if .Params.tags }}
+                          <span>• Tags: {{ delimit .Params.tags ", " }}</span>
+                        {{ end }}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              {{ end }}
+            </div>
+          {{ else }}
+            <p class="text-neutral-600 dark:text-neutral-400">No posts found.</p>
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="mt-12">
+        <h2>Posts by Year</h2>
+        <div class="mt-6">
+          {{ $postsByYear := $posts.GroupByDate "2006" }}
+          {{ range $postsByYear }}
+            <div class="mb-8">
+              <h3 class="text-2xl font-semibold mb-4 text-primary-600 dark:text-primary-400">{{ .Key }}</h3>
+              <div class="grid gap-4">
+                {{ range .Pages }}
+                  <div class="flex items-center justify-between py-2 border-b border-neutral-200 dark:border-neutral-700">
+                    <a href="{{ .RelPermalink }}" class="text-neutral-900 dark:text-neutral-100 hover:text-primary-500 dark:hover:text-primary-400">
+                      {{ .Title }}
+                    </a>
+                    <span class="text-sm text-neutral-500 dark:text-neutral-400">
+                      {{ .Date.Format "Jan 2" }}
+                    </span>
+                  </div>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
+{{ end }}
