@@ -4,3 +4,13 @@ resources/_gen/
 .DS_Store
 node_modules/
 .hugo_build.lock
+
+# macOS and VSCode
+.DS_Store
+/.vscode/
+
+
+# node
+node_modules/
+package-lock.json
+package.json
